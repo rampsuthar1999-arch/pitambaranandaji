@@ -8,6 +8,9 @@
 <meta name="theme-color" content="#F3F5F4" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#161C20" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-192.png">
+<meta name="apple-mobile-web-app-title" content="Pitambarananda">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=Mukta:wght@400;600&family=Noto+Serif+Devanagari:wght@400;600&family=Noto+Serif+Bengali:wght@400;600&display=swap">
@@ -33,5 +36,6 @@
 <main id="app" class="wrap" tabindex="-1"><p class="loading">Loading…</p></main>
 <footer><div class="wrap">Writings of Swami Pitambarananda, Ramakrishna Order. Full text with the original pages.</div></footer>
 <script src="assets/app.js"></script>
+<script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(function () {});</script>
 </body>
 </html>

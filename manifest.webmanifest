@@ -1,0 +1,17 @@
+{
+  "id": "/pitambaranandaji/",
+  "name": "Writings of Swami Pitambarananda",
+  "short_name": "Pitambarananda",
+  "description": "Talks, essays, letters and answers to questions by Swami Pitambarananda, in English and Hindi, with the original pages.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#161C20",
+  "theme_color": "#161C20",
+  "lang": "en",
+  "icons": [
+    {"src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "assets/icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
